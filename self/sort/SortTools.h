@@ -28,6 +28,7 @@ void Swap(int arr[], int i, int j) {
  * @return
  */
 void GetRandOrderArray(int arr[], int max, int rangeL, int rangeR) {
+    printf("随机数组\n");
     srand(time(NULL));
     for (int i = 0; i < max; ++i) {
         arr[i] = rand() % (rangeR - rangeL + 1) + rangeL;
@@ -55,6 +56,7 @@ void CopyArray(int copyArr[], int sourceArr[], int max) {
  * @return
  */
 void GetNearlyOrderArray(int arr[], int max, int swapTimes) {
+    printf("有序数组, 混乱度: %d\n", swapTimes);
     for (int i = 0; i < max; ++i) {
         arr[i] = i;
     }
