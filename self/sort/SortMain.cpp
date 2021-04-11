@@ -2,7 +2,7 @@
 
 #include "SortTools.h"
 
-#define MAX 10000000
+#define MAX 1000000
 
 int __QsortComp(const void* a,const void* b);
 void Qsort(int arr[], int max);
@@ -21,21 +21,19 @@ void MergeSort(int arr[], int max);
 void __MergeSort(int arr[], int left, int right);
 void __Merge(int arr[], int left, int mid, int right);
 
+void HeapSortStack(int arr[], int max);
+void __InitHeapStack(int arr[], int start_index, int max);
+void __BuildHeapStack(int arr[], int start_index, int max);
+void __HeapSortStack(int arr[], int max);
+
 int merge_temp_arr[MAX];
 
-int arr00[MAX];
-int arr01[MAX];
-int arr02[MAX];
-int arr03[MAX];
-int arr04[MAX];
-int arr05[MAX];
-int arr06[MAX];
-int arr07[MAX];
+int arr00[MAX], arr01[MAX], arr02[MAX], arr03[MAX], arr04[MAX], arr05[MAX], arr06[MAX], arr07[MAX], arr08[MAX];
 
 int main() {
 
-    GetRandOrderArray(arr01, MAX, 0, MAX);
-    //GetNearlyOrderArray(arr01, MAX, 1e3);
+    //GetRandOrderArray(arr01, MAX, 0, MAX);
+    GetNearlyOrderArray(arr01, MAX, 1e3);
     CopyArray(arr00, arr01, MAX);
     CopyArray(arr02, arr01, MAX);
     CopyArray(arr03, arr01, MAX);
@@ -43,7 +41,9 @@ int main() {
     CopyArray(arr05, arr01, MAX);
     CopyArray(arr06, arr01, MAX);
     CopyArray(arr07, arr01, MAX);
+    CopyArray(arr08, arr01, MAX);
 
+    PrintArray(arr08, MAX);
 
     SortTemplate((char*)"qsort排序", Qsort, arr00, MAX, arr00);
 
@@ -54,10 +54,100 @@ int main() {
     //SortTemplate((char*)"优化冒泡排序", BubbleSort02, arr05, MAX, arr01);
     //SortTemplate((char*)"快速排序", QuickSort, arr06, MAX, arr00);
     SortTemplate((char*)"归并排序", MergeSort, arr07, MAX, arr00);
+    SortTemplate((char*)"堆排序", HeapSortStack, arr08, MAX, arr00);
 
     return 0;
 }
 
+/**
+ * @brief 堆排序入口
+ * @param arr 数组
+ * @param max 数组长度
+ *
+ * @return
+ */
+void HeapSortStack(int arr[], int max) {
+    __InitHeapStack(arr, 0, max);
+    __HeapSortStack(arr, max);
+}
+/**
+ * @brief 初始化大根堆.
+ * @param arr 数组
+ * @param start_index 当前节点下标
+ * @param max 数组长度
+ *
+ * @return
+ */
+void __InitHeapStack(int arr[], int start_index, int max) {
+    if ((start_index + 1) * 2 > max) {
+        return;
+    }
+    __InitHeapStack(arr, start_index * 2 + 1, max);
+    __InitHeapStack(arr, start_index * 2 + 2, max);
+
+    int right_child_index = (start_index + 1) * 2;
+    int left_child_index = (start_index + 1) * 2 - 1;
+
+    int max_child_index;
+    // 比较两个节点
+    if(left_child_index < max) {
+        max_child_index = arr[right_child_index] > arr[left_child_index] ? right_child_index : left_child_index;
+    } else {
+        max_child_index = right_child_index;
+    }
+
+    // 比较父节点和子节点
+    if (arr[start_index] < arr[max_child_index]) {
+        Swap(arr, start_index, max_child_index);
+        // 重新初始化堆
+        __InitHeapStack(arr, max_child_index, max);
+    }
+}
+/**
+ * @brief 排序以后重新构建大根堆
+ * @param arr 数组
+ * @param start_index 当前节点下标
+ * @param max 未排序数组长度
+ *
+ * @return
+ */
+void __BuildHeapStack(int arr[], int start_index, int max) {
+    int right_child_index = (start_index + 1) * 2;
+    int left_child_index = (start_index + 1) * 2 - 1;
+
+    int max_child_index;
+    // 比较两个节点
+    if (left_child_index >= max) {
+        return;
+    } else if(right_child_index < max) {
+        max_child_index = arr[right_child_index] > arr[left_child_index] ? right_child_index : left_child_index;
+    } else {
+        max_child_index = left_child_index;
+    }
+
+    // 比较父节点和子节点
+    if (arr[start_index] < arr[max_child_index]) {
+        Swap(arr, start_index, max_child_index);
+        // 重新构建堆
+        __BuildHeapStack(arr, max_child_index, max);
+    }
+}
+/**
+ * @brief 真正的堆排序
+ * @param arr 数组
+ * @param max 未排序数组长度
+ *
+ * @return
+ */
+void __HeapSortStack(int arr[], int max) {
+    if (max == 0) {
+        return;
+    }
+    // 堆顶 与 max-1交换位置, 重新构建堆, max = max -1;
+    Swap(arr, 0, max-1);
+    __BuildHeapStack(arr, 0, max-1);
+    __HeapSortStack(arr, max-1);
+}
 
 /**
  * @brief 归并排序入口
@@ -104,22 +194,22 @@ void __Merge(int arr[], int left, int mid, int right) {
         merge_temp_arr[i] = arr[i];
     }
 
-    int leftIndex = left;
-    int rightIndex = mid+1;
+    int left_index = left;
+    int right_index = mid+1;
 
     for (int i = left; i <= right; ++i) {
-        if (leftIndex > mid) {
-            arr[i] = merge_temp_arr[rightIndex];
-            rightIndex ++;
-        } else if (rightIndex > right) {
-            arr[i] = merge_temp_arr[leftIndex];
-            leftIndex ++;
-        } else if (merge_temp_arr[leftIndex] > merge_temp_arr[rightIndex]) {
-            arr[i] = merge_temp_arr[rightIndex];
-            rightIndex ++;
+        if (left_index > mid) {
+            arr[i] = merge_temp_arr[right_index];
+            right_index ++;
+        } else if (right_index > right) {
+            arr[i] = merge_temp_arr[left_index];
+            left_index ++;
+        } else if (merge_temp_arr[left_index] > merge_temp_arr[right_index]) {
+            arr[i] = merge_temp_arr[right_index];
+            right_index ++;
         }else {
-            arr[i] = merge_temp_arr[leftIndex];
-            leftIndex ++;
+            arr[i] = merge_temp_arr[left_index];
+            left_index ++;
         }
     }
 }
