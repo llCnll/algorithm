@@ -2,7 +2,7 @@
 
 #include "SortTools.h"
 
-#define MAX 1000000
+#define MAX 10000000
 
 int __QsortComp(const void* a,const void* b);
 void Qsort(int arr[], int max);
@@ -26,9 +26,13 @@ void __InitHeapStack(int arr[], int start_index, int max);
 void __BuildHeapStack(int arr[], int start_index, int max);
 void __HeapSortStack(int arr[], int max);
 
+void HeapSortLoop(int arr[], int max);
+void __BuildHeapLoop(int arr[], int start_index, int max);
+void __HeapSortLoop(int arr[], int max);
+
 int merge_temp_arr[MAX];
 
-int arr00[MAX], arr01[MAX], arr02[MAX], arr03[MAX], arr04[MAX], arr05[MAX], arr06[MAX], arr07[MAX], arr08[MAX];
+int arr00[MAX], arr01[MAX], arr02[MAX], arr03[MAX], arr04[MAX], arr05[MAX], arr06[MAX], arr07[MAX], arr08[MAX], arr09[MAX];
 
 int main() {
 
@@ -42,8 +46,7 @@ int main() {
     CopyArray(arr06, arr01, MAX);
     CopyArray(arr07, arr01, MAX);
     CopyArray(arr08, arr01, MAX);
-
-    PrintArray(arr08, MAX);
+    CopyArray(arr09, arr01, MAX);
 
     SortTemplate((char*)"qsort排序", Qsort, arr00, MAX, arr00);
 
@@ -54,9 +57,71 @@ int main() {
     //SortTemplate((char*)"优化冒泡排序", BubbleSort02, arr05, MAX, arr01);
     //SortTemplate((char*)"快速排序", QuickSort, arr06, MAX, arr00);
     SortTemplate((char*)"归并排序", MergeSort, arr07, MAX, arr00);
-    SortTemplate((char*)"堆排序", HeapSortStack, arr08, MAX, arr00);
+    //SortTemplate((char*)"堆排序(栈)", HeapSortStack, arr08, MAX, arr00);
+    SortTemplate((char*)"堆排序(循环)", HeapSortLoop, arr09, MAX, arr00);
 
     return 0;
+}
+
+/**
+ * @brief 堆排序入口
+ * @param arr 数组
+ * @param max 数组长度
+ *
+ * @return
+ */
+void HeapSortLoop(int arr[], int max) {
+    for (int i = max / 2 - 1; i >= 0; --i) {
+        __BuildHeapLoop(arr, i, max);
+    }
+    __HeapSortLoop(arr, max);
+}
+/**
+ * @brief 构建大根堆.
+ * @param arr 数组
+ * @param start_index 当前节点下标
+ * @param max 数组长度
+ *
+ * @return
+ */
+void __BuildHeapLoop(int arr[], int start_index, int max) {
+    int temp = arr[start_index];
+
+    int child_index = (start_index + 1) * 2 - 1;
+    int left_child_index = (start_index + 1) * 2 - 1;
+    int right_child_index = left_child_index + 1;
+
+    int max_child_index;
+    while (left_child_index < max) {
+        if(right_child_index < max) {
+            max_child_index = arr[right_child_index] > arr[left_child_index] ? right_child_index : left_child_index;
+        } else {
+            max_child_index = left_child_index;
+        }
+
+        if (temp >= arr[max_child_index]) {
+            break;
+        }
+
+        arr[start_index] = arr[max_child_index];
+        start_index = max_child_index;
+        left_child_index = (start_index + 1) * 2 - 1;
+        right_child_index = left_child_index + 1;
+    }
+    arr[start_index] = temp;
+}
+/**
+ * @brief 真正的堆排序.
+ * @param arr 数组
+ * @param max 数组长度
+ *
+ * @return
+ */
+void __HeapSortLoop(int arr[], int max) {
+    for (int i = max-1; i > 0; --i) {
+        Swap(arr, 0, i);
+        __BuildHeapLoop(arr, 0, i);
+    }
 }
 
 /**
