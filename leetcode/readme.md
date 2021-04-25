@@ -16,3 +16,4 @@
 题目 | 思路
 :-: | :-:
 [633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | 暴力, 减少循环次数 a <= sqrt(c/2), 再看b能不能被整开方
+[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | 遍历一次就能出结果, 要注意替换指针的顺序, 不能断链了. 使用头节点的方式, 最后返回 头节点->next
