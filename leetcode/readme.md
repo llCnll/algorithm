@@ -10,6 +10,8 @@
 题目 | 思路
 :-: | :-:
 [面试题 16.15. 珠玑妙算](https://leetcode-cn.com/problems/master-mind-lcci/) | 正常思路, 把正确答案出现的次数聚合下, 先比较正确 "猜中的", 在比较 "未猜中"
+[204. 计数质数](https://leetcode-cn.com/problems/count-primes/) | 打表
+
 
 ## 中等
 
