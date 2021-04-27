@@ -36,8 +36,8 @@ int arr00[MAX], arr01[MAX], arr02[MAX], arr03[MAX], arr04[MAX], arr05[MAX], arr0
 
 int main() {
 
-    //GetRandOrderArray(arr01, MAX, 0, MAX);
-    GetNearlyOrderArray(arr01, MAX, 1e3);
+    GetRandOrderArray(arr01, MAX, 0, MAX);
+    //GetNearlyOrderArray(arr01, MAX, 1e3);
     CopyArray(arr00, arr01, MAX);
     CopyArray(arr02, arr01, MAX);
     CopyArray(arr03, arr01, MAX);
@@ -55,10 +55,10 @@ int main() {
     //SortTemplate((char*)"优化插入排序", InsertSort02, arr03, MAX, arr03);
     //SortTemplate((char*)"简单冒泡排序", BubbleSort, arr04, MAX, arr01);
     //SortTemplate((char*)"优化冒泡排序", BubbleSort02, arr05, MAX, arr01);
-    //SortTemplate((char*)"快速排序", QuickSort, arr06, MAX, arr00);
-    SortTemplate((char*)"归并排序", MergeSort, arr07, MAX, arr00);
+    SortTemplate((char*)"快速排序", QuickSort, arr06, MAX, arr00);
+    //SortTemplate((char*)"归并排序", MergeSort, arr07, MAX, arr00);
     //SortTemplate((char*)"堆排序(栈)", HeapSortStack, arr08, MAX, arr00);
-    SortTemplate((char*)"堆排序(循环)", HeapSortLoop, arr09, MAX, arr00);
+    //SortTemplate((char*)"堆排序(循环)", HeapSortLoop, arr09, MAX, arr00);
 
     return 0;
 }
@@ -318,21 +318,28 @@ void __QuickSort(int arr[], int left, int right) {
  * @return 返回已排序号的下标
  */
 int __Partition(int arr[], int left, int right) {
-    int posIndex = rand() % (right-left+1) + left;
-    int pos = arr[posIndex];
+    Swap(arr, left, rand() % (right-left+1) + left);
+    int pos = arr[left];
 
-    while(left < right) {
-        if (arr[left] < pos) {
-            left ++;
-        }
+    int i = left + 1;
+    int j = right;
 
-        if (arr[right] > pos) {
-            right --;
+    while(true) {
+        while (i <= right && arr[i] < pos) {
+            i++;
         }
-        Swap(arr, left, right);
+        while (j >= left+1 && arr[j] > pos) {
+            j--;
+        }
+        if(i >= j) {
+            break;
+        }
+        Swap(arr, i, j);
+        i++;
+        j--;
     }
-    arr[left] = pos;
-    return left;
+    Swap(arr, left, j);
+    return j;
 }
 
 /**
