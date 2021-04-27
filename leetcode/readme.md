@@ -22,6 +22,7 @@
 [shan-chu-lian-biao-de-jie-dian-lcof.cpp](shan-chu-lian-biao-de-jie-dian-lcof.cpp) | [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | 题目中要求删除一个, 我这个全删了. 应该也没啥问题.
 [diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.cpp](diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.cpp) | [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | 头尾指针.
 [lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.cpp](lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.cpp) | [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | 双指针.
+[he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp](he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp) <br/> [merge-two-sorted-lists.cpp](merge-two-sorted-lists.cpp) | [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) <br/> [合并两个有序链表](合并两个有序链表) | 多弄一个头节点, 最后返回的时候是头节点->next, 按顺序合并就行了.
 
 
 ## 中等
