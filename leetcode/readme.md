@@ -18,7 +18,7 @@
 [fei-bo-na-qi-shu-lie-lcof.cpp](fei-bo-na-qi-shu-lie-lcof.cpp) | [剑指 Offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | a,b,c
 [qing-wa-tiao-tai-jie-wen-ti-lcof.cpp](qing-wa-tiao-tai-jie-wen-ti-lcof.cpp) <br/> [climbing-stairs.cpp](climbing-stairs.cpp) | [剑指 Offer 10- II. 青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) <br/> [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | 同上
 [xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.cpp](xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.cpp) <br/> [find-minimum-in-rotated-sorted-array-ii.cpp](find-minimum-in-rotated-sorted-array-ii.cpp) | [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) <br/> [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 两两比较非递增则返回, 注意这个数组是递增的情况.
-[er-jin-zhi-zhong-1de-ge-shu-lcof.cpp](er-jin-zhi-zhong-1de-ge-shu-lcof.cpp) <br/> [number-of-1-bits.cpp](number-of-1-bits.cpp) | [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) <br/> [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | 位与运算求个数
+[da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp](da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp) | [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | 直接遍历不就好了..
 
 
 ## 中等
