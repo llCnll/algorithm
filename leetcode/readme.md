@@ -24,7 +24,8 @@
 [diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.cpp](diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.cpp) | [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | 头尾指针.
 [lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.cpp](lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.cpp) | [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | 双指针.
 [he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp](he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp) <br/> [merge-two-sorted-lists.cpp](merge-two-sorted-lists.cpp) | [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) <br/> [合并两个有序链表](合并两个有序链表) | 多弄一个头节点, 最后返回的时候是头节点->next, 按顺序合并就行了.
-[shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp](shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp) <br/> [majority-element.cpp](majority-element.cpp) | [剑指 Offer 39. 数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) <br/> [169. 多数元素](https://leetcode-cn.com/problems/majority-element/) | 使用快排的算法, 当前区间 大于/小于 mid的时候, 就不排序了(节省时间).
+[shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp](shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp) <br/> [majority-element.cpp](majority-element.cpp) | [剑指 Offer 39. 数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) <br/> [169. 多数元素](https://leetcode-cn.com/problems/majority-element/) | 使用快排的思想, 右边界小于mid, 左边界大于mid, 就不排序了(节省时间), 直到中间值为mid.
+[zui-xiao-de-kge-shu-lcof.cpp](zui-xiao-de-kge-shu-lcof.cpp) | [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | 使用快排的思想, 右边界小于k, 左边界大于k的时候, 就不排序, 直到中间值为k.
 
 
 ## 中等
