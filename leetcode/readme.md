@@ -20,6 +20,7 @@
 [xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.cpp](xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.cpp) <br/> [find-minimum-in-rotated-sorted-array-ii.cpp](find-minimum-in-rotated-sorted-array-ii.cpp) | [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) <br/> [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 两两比较非递增则返回, 注意这个数组是递增的情况.
 [da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp](da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp) | [剑指 Offer 17. 打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | 直接遍历不就好了..
 [shan-chu-lian-biao-de-jie-dian-lcof.cpp](shan-chu-lian-biao-de-jie-dian-lcof.cpp) | [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | 题目中要求删除一个, 我这个全删了. 应该也没啥问题.
+[diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.cpp](diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.cpp) | [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | 头尾指针.
 
 
 ## 中等
