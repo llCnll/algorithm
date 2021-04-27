@@ -26,6 +26,7 @@
 [he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp](he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp) <br/> [merge-two-sorted-lists.cpp](merge-two-sorted-lists.cpp) | [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) <br/> [合并两个有序链表](合并两个有序链表) | 多弄一个头节点, 最后返回的时候是头节点->next, 按顺序合并就行了.
 [shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp](shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp) <br/> [majority-element.cpp](majority-element.cpp) | [剑指 Offer 39. 数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) <br/> [169. 多数元素](https://leetcode-cn.com/problems/majority-element/) | 使用快排的思想, 右边界小于mid, 左边界大于mid, 就不排序了(节省时间), 直到中间值为mid.
 [zui-xiao-de-kge-shu-lcof.cpp](zui-xiao-de-kge-shu-lcof.cpp) | [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | 使用快排的思想, 右边界小于k, 左边界大于k的时候, 就不排序, 直到中间值为k.
+[di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.cpp](di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.cpp) | [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | 暴力 二维数组 0-出现次序, 1-次数
 
 
 ## 中等
