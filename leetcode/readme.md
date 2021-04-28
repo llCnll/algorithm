@@ -32,6 +32,7 @@
 [fan-zhuan-dan-ci-shun-xu-lcof.cpp](fan-zhuan-dan-ci-shun-xu-lcof.cpp) <br/> [reverse-words-in-a-string.cpp](reverse-words-in-a-string.cpp)| [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) <br> [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | 反转整串, 在反转单词, 最后去掉空格. (应该有什么更快的方法吧)
 [zuo-xuan-zhuan-zi-fu-chuan-lcof.cpp](zuo-xuan-zhuan-zi-fu-chuan-lcof.cpp) | [剑指 Offer 58 - II. 左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | 偷懒的做法 创建strlen(s)+n的长度, 最后返回s+n
 [er-cha-shu-de-jing-xiang-lcof.cpp](er-cha-shu-de-jing-xiang-lcof.cpp) <br/> [invert-binary-tree.cpp](invert-binary-tree.cpp)| [剑指 Offer 27. 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) <br> [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | 先序递归, 每次交换两孩子.
+[dui-cheng-de-er-cha-shu-lcof.cpp](dui-cheng-de-er-cha-shu-lcof.cpp) <br/> [symmetric-tree.cpp](symmetric-tree.cpp)| [剑指 Offer 28. 对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) <br> [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | 有点绕, 要传两个根节点做比较.
 
 
 ## 中等
