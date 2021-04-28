@@ -27,8 +27,8 @@
 [shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp](shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.cpp) <br/> [majority-element.cpp](majority-element.cpp) | [剑指 Offer 39. 数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) <br/> [169. 多数元素](https://leetcode-cn.com/problems/majority-element/) | 使用快排的思想, 右边界小于mid, 左边界大于mid, 就不排序了(节省时间), 直到中间值为mid.
 [zui-xiao-de-kge-shu-lcof.cpp](zui-xiao-de-kge-shu-lcof.cpp) | [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | 使用快排的思想, 右边界小于k, 左边界大于k的时候, 就不排序, 直到中间值为k.
 [di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.cpp](di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.cpp) | [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | 暴力 二维数组 0-出现次序, 1-次数
-[zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cpp](zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cpp) <br/> [find-first-and-last-position-of-element-in-sorted-array.cpp](find-first-and-last-position-of-element-in-sorted-array.cpp) | [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) <br/> [34.
-在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 二分查找. 好久没写过了, 要注意 区间只有一个值的情况. 目前是一直找的情况, 应该是可以优化的, 找到一处就停止, 然后在这个点前后遍历.
+[zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cpp](zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cpp) <br/> [find-first-and-last-position-of-element-in-sorted-array.cpp](find-first-and-last-position-of-element-in-sorted-array.cpp) | [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) <br/> [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 二分查找. 好久没写过了, 要注意 区间只有一个值的情况. 目前是一直找的情况, 应该是可以优化的, 找到一处就停止, 然后在这个点前后遍历.
+[que-shi-de-shu-zi-lcof.cpp](que-shi-de-shu-zi-lcof.cpp) | [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | 暴力, 直接遍历.
 
 
 ## 中等
