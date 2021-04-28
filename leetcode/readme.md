@@ -29,6 +29,7 @@
 [di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.cpp](di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.cpp) | [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | 暴力 二维数组 0-出现次序, 1-次数
 [zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cpp](zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.cpp) <br/> [find-first-and-last-position-of-element-in-sorted-array.cpp](find-first-and-last-position-of-element-in-sorted-array.cpp) | [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) <br/> [34.在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 二分查找. 好久没写过了, 要注意 区间只有一个值的情况. 目前是一直找的情况, 应该是可以优化的, 找到一处就停止, 然后在这个点前后遍历.
 [que-shi-de-shu-zi-lcof.cpp](que-shi-de-shu-zi-lcof.cpp) | [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | 暴力, 直接遍历.
+[fan-zhuan-dan-ci-shun-xu-lcof.cpp](fan-zhuan-dan-ci-shun-xu-lcof.cpp) <br/> [reverse-words-in-a-string.cpp](reverse-words-in-a-string.cpp)| [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) <br> [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | 反转整串, 在反转单词, 最后去掉空格. (应该有什么更快的方法吧)
 
 
 ## 中等
