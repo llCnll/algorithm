@@ -36,6 +36,7 @@
 [cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp](cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp) <br/> [binary-tree-level-order-traversal.cpp](binary-tree-level-order-traversal.cpp)| [剑指 Offer 32 - II. 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) <br> [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [借鉴了下](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/comments/246551) 主要再想c有什么动态扩容的东西.. 发现直接1000*1000就好了. 原来也想二维数组实际上也是一维线性的, 中间差几个指针就好了. 借鉴的这个人方法很巧妙, 可能是因为题目吧, 用的dfs, 而不是bfs. 省去了队列.
 [er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.cpp](er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.cpp) | [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | 二查搜索树左小右大, 又是取TopK所以有后序遍历.
 [er-cha-shu-de-shen-du-lcof.cpp](er-cha-shu-de-shen-du-lcof.cpp) <br/> [maximum-depth-of-binary-tree.cpp](maximum-depth-of-binary-tree.cpp)| [剑指 Offer 55 - I. 二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) <br> [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 深度遍历就好了.
+[ping-heng-er-cha-shu-lcof.cpp](ping-heng-er-cha-shu-lcof.cpp) <br/> [balanced-binary-tree.cpp](balanced-binary-tree.cpp)| [剑指 Offer 55 - II. 平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) <br> [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | 求树高.
 
 
 ## 中等
