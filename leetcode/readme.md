@@ -42,6 +42,7 @@
 [shun-shi-zhen-da-yin-ju-zhen-lcof.cpp](shun-shi-zhen-da-yin-ju-zhen-lcof.cpp) <br/> [spiral-matrix.cpp](spiral-matrix.cpp)| [剑指 Offer 29. 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) <br> [54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | 边界值没处理好, 直接开2倍空间解决...
 [lian-xu-zi-shu-zu-de-zui-da-he-lcof.cpp](lian-xu-zi-shu-zu-de-zui-da-he-lcof.cpp) <br/> [maximum-subarray.cpp](maximum-subarray.cpp)| [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) <br> [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | 动态规划, 加上当前值比之前的值小, 则重置
 [he-wei-sde-liang-ge-shu-zi-lcof.cpp](he-wei-sde-liang-ge-shu-zi-lcof.cpp) | [剑指 Offer 57. 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | 二分查找. 并设置了提前终止的标志, `num[i]<=target/2`
+[yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.cpp](yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.cpp) | [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | 约瑟夫环 f(n) = (f(n-1) + m) % n
 
 
 ## 中等
