@@ -41,6 +41,7 @@
 [er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.cpp](er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.cpp) <br/> [lowest-common-ancestor-of-a-binary-search-tree.cpp](lowest-common-ancestor-of-a-binary-search-tree.cpp)| [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) <br> [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 直接用上一题的代码了, 就通过了, 仔细看这个二查搜索树的, 应该是有简单方法吧.
 [shun-shi-zhen-da-yin-ju-zhen-lcof.cpp](shun-shi-zhen-da-yin-ju-zhen-lcof.cpp) <br/> [spiral-matrix.cpp](spiral-matrix.cpp)| [剑指 Offer 29. 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) <br> [54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | 边界值没处理好, 直接开2倍空间解决...
 [lian-xu-zi-shu-zu-de-zui-da-he-lcof.cpp](lian-xu-zi-shu-zu-de-zui-da-he-lcof.cpp) <br/> [maximum-subarray.cpp](maximum-subarray.cpp)| [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) <br> [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | 动态规划, 加上当前值比之前的值小, 则重置
+[he-wei-sde-liang-ge-shu-zi-lcof.cpp](he-wei-sde-liang-ge-shu-zi-lcof.cpp) | [剑指 Offer 57. 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | 二分查找. 并设置了提前终止的标志, `num[i]<=target/2`
 
 
 ## 中等
