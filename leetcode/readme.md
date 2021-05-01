@@ -44,6 +44,7 @@
 [he-wei-sde-liang-ge-shu-zi-lcof.cpp](he-wei-sde-liang-ge-shu-zi-lcof.cpp) | [剑指 Offer 57. 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | 二分查找. 并设置了提前终止的标志, `num[i]<=target/2`
 [yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.cpp](yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.cpp) | [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | 约瑟夫环 f(n) = (f(n-1) + m) % n
 [bu-ke-pai-zhong-de-shun-zi-lcof.cpp](bu-ke-pai-zhong-de-shun-zi-lcof.cpp) | [剑指 Offer 61. 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | 桶排序, 暴力破解
+[bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.cpp](bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof) | [剑指 Offer 65. 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | 进位&, 值相加^.
 
 
 ## 中等
@@ -51,4 +52,5 @@
 代码 | 题目 | 思路
 :-: | :-: | :-:
 [sum-of-square-numbers.cpp](sum-of-square-numbers.cpp) | [633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | 暴力, 减少循环次数 `a <= sqrt(c/2)`, 再看b能不能被整开方
+[er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.cpp](er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.cpp) | [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | 二查搜索树左小右大, 又是取TopK所以有后序遍历.
 [reverse-linked-list-ii.cpp](reverse-linked-list-ii.cpp) | [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | 正序链表+倒叙链表+正序链表
