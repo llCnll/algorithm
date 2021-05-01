@@ -46,6 +46,7 @@
 [bu-ke-pai-zhong-de-shun-zi-lcof.cpp](bu-ke-pai-zhong-de-shun-zi-lcof.cpp) | [剑指 Offer 61. 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | 桶排序, 暴力破解
 [bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.cpp](bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.cpp) | [剑指 Offer 65. 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | 进位&, 值相加^.
 [he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.cpp](he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.cpp) | [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | 滑动窗口
+[liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.cpp](liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.cpp) <br/> [intersection-of-two-linked-lists.cpp](intersection-of-two-linked-lists.cpp) | [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) <br/> [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | 有点意思, 之前想的是快慢指针, 没想到还有这么巧的方法. (变成我，走过我走过的路。我变成你，走过你走过的路。然后我们便相遇了.)
 
 
 ## 中等
