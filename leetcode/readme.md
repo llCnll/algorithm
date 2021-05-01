@@ -44,7 +44,8 @@
 [he-wei-sde-liang-ge-shu-zi-lcof.cpp](he-wei-sde-liang-ge-shu-zi-lcof.cpp) | [剑指 Offer 57. 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | 二分查找. 并设置了提前终止的标志, `num[i]<=target/2`
 [yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.cpp](yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.cpp) | [剑指 Offer 62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | 约瑟夫环 f(n) = (f(n-1) + m) % n
 [bu-ke-pai-zhong-de-shun-zi-lcof.cpp](bu-ke-pai-zhong-de-shun-zi-lcof.cpp) | [剑指 Offer 61. 扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | 桶排序, 暴力破解
-[bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.cpp](bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof) | [剑指 Offer 65. 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | 进位&, 值相加^.
+[bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.cpp](bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.cpp) | [剑指 Offer 65. 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | 进位&, 值相加^.
+[he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.cpp](he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.cpp) | [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | 滑动窗口
 
 
 ## 中等
