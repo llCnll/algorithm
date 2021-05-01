@@ -56,3 +56,4 @@
 [sum-of-square-numbers.cpp](sum-of-square-numbers.cpp) | [633. 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/) | 暴力, 减少循环次数 `a <= sqrt(c/2)`, 再看b能不能被整开方
 [er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.cpp](er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.cpp) | [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | 二查搜索树左小右大, 又是取TopK所以有后序遍历.
 [reverse-linked-list-ii.cpp](reverse-linked-list-ii.cpp) | [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | 正序链表+倒叙链表+正序链表
+[er-wei-shu-zu-zhong-de-cha-zhao-lcof.cpp](er-wei-shu-zu-zhong-de-cha-zhao-lcof.cpp) <br/> [search-a-2d-matrix-ii.cpp](search-a-2d-matrix-ii.cpp)| [剑指 Offer 04. 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) <br> [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | 原来想二份查找的, 后来借鉴了下, 发现变成二查搜索树就简单了很多!
