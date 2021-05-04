@@ -62,3 +62,4 @@
 [zi-fu-chuan-de-pai-lie-lcof.cpp](zi-fu-chuan-de-pai-lie-lcof.cpp) | [剑指 Offer 38. 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) | 回溯+剪枝(剪枝条件很关键, 前一个节点相同且选择过)
 [shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.cpp](shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.cpp) <br/> [nth-digit.cpp](nth-digit.cpp)| [剑指 Offer 44. 数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/) <br> [400. 第 N 位数字](https://leetcode-cn.com/problems/nth-digit/) | 找规律, 区分当前数字的位数 --> 返回第几位.
 [ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.cpp](ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.cpp) | [剑指 Offer 45. 把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | 想复杂了... 见__QsortComp2, 后来想了下局部最小, 最后推出全最小.
+[ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.cpp](ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.cpp) | [剑指 Offer 46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | 回溯+剪枝.
