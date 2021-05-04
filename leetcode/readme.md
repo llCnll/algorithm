@@ -64,3 +64,5 @@
 [ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.cpp](ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.cpp) | [剑指 Offer 45. 把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | 想复杂了... 见__QsortComp2, 后来想了下局部最小, 最后推出全最小.
 [ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.cpp](ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.cpp) | [剑指 Offer 46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | 回溯+剪枝.
 [li-wu-de-zui-da-jie-zhi-lcof.cpp](li-wu-de-zui-da-jie-zhi-lcof.cpp) | [剑指 Offer 47. 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | 动态规划, 取左和上的最大值.
+[zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.cpp](zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.cpp) <br/> [longest-substring-without-repeating-characters.cpp](longest-substring-without-repeating-characters.cpp)| [剑指 Offer 48. 最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) <br> [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | 滑动窗口 +
+桶标记是否存在. 看到更好的方案是这个桶可以记录出现的下标.
