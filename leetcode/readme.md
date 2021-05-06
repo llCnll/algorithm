@@ -71,3 +71,4 @@
 [nge-tou-zi-de-dian-shu-lcof.cpp](nge-tou-zi-de-dian-shu-lcof.cpp) | [剑指 Offer 60. n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/) | 递推f(n)建立在f(n-1)之上, 概率又相互独立, /6即可, 然后在累加.
 [gu-piao-de-zui-da-li-run-lcof.cpp](gu-piao-de-zui-da-li-run-lcof.cpp) <br/> [best-time-to-buy-and-sell-stock.cpp](best-time-to-buy-and-sell-stock.cpp)| [剑指 Offer 63. 股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) <br/> [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | 动态规划(常规思路) result = max(result, cur_price - min_price).
 [qiu-12n-lcof.cpp](qiu-12n-lcof.cpp) | [剑指 Offer 64. 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/) | 移位运算, (阴差阳错的发现这是快速乘, 但是还是有点差距)
+[gou-jian-cheng-ji-shu-zu-lcof.cpp](gou-jian-cheng-ji-shu-zu-lcof.cpp) | [剑指 Offer 66. 构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) | 维护两个数组一个正向的乘积, 一个逆向的乘积, 最终结果为 正*逆.
