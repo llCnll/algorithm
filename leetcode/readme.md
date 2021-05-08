@@ -77,3 +77,5 @@
 [cong-shang-dao-xia-da-yin-er-cha-shu-lcof.cpp](cong-shang-dao-xia-da-yin-er-cha-shu-lcof.cpp) | [剑指 Offer 32 - I. 从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) | 层次遍历, 注意边界就好了.
 [cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.cpp](cong-shang-dao-xia-da-yin-er-cha-shu--iii-lcof.cpp) | [剑指 Offer 32 - III. 从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) | 继2之后, 在偶数层倒序下就好了.
 [er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.cpp](er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.cpp) | [剑指 Offer 33. 二叉搜索树的后序遍历序列](剑指 Offer 33. 二叉搜索树的后序遍历序列) | 递归, 将区间分为 左子树-右子树-根, 在临界值上花了点功夫...
+[er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.cpp](er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.cpp) <br/> [path-sum-ii.cpp](path-sum-ii.cpp)| [剑指 Offer 34. 二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) <br/> [113. 路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) | 一直超时... 原因就是一开始就初始化二维数组的行, 后来变成要赋值的时候初始化行就好了, 以及复制数组的时候用memcpy能快很多, 而且简短.
+值可以为负数, 所以不能提前终止. dfs算法.
