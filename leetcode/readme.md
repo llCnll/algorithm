@@ -81,5 +81,11 @@
 [er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.cpp](er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.cpp) | [剑指 Offer 36. 二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) | 递归, 左子树的最右节点 -- 根 -- 右子树最左节点.
 [ju-zhen-zhong-de-lu-jing-lcof.cpp](ju-zhen-zhong-de-lu-jing-lcof.cpp) <br/> [word-search.cpp](word-search.cpp)| [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) <br/> [79. 单词搜索](https://leetcode-cn.com/problems/word-search/) | 暴力 + dfs.
 [ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp](ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp) | [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | 暴力 + dfs.
-[hua-dong-chuang-kou-de-zui-da-zhi-lcof.cpp](hua-dong-chuang-kou-de-zui-da-zhi-lcof.cpp) <br/> [sliding-window-maximum.cpp](sliding-window-maximum.cpp)| [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) <br/> [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |
-这人说的很好[从哨兵到数据结构的思维推进](https://leetcode-cn.com/problems/sliding-window-maximum/solution/cong-shao-bing-dao-shu-ju-jie-gou-de-si-kuti2/), 做剑指offer的时候用的 二审此题 的方法, 如果遇到单调的话, 就会超时(看一年前别人的提交是通过的, 估计更新了测试用例). 更新后的方法: 维护一个单调队列, 队尾的值小于要进来的值则出队.
+
+
+## 困难
+
+代码 | 题目 | 思路
+:-: | :-: | :-:
+[hua-dong-chuang-kou-de-zui-da-zhi-lcof.cpp](hua-dong-chuang-kou-de-zui-da-zhi-lcof.cpp) <br/> [sliding-window-maximum.cpp](sliding-window-maximum.cpp)| [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) <br/> [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |这人说的很好[从哨兵到数据结构的思维推进](https://leetcode-cn.com/problems/sliding-window-maximum/solution/cong-shao-bing-dao-shu-ju-jie-gou-de-si-kuti2/), 做剑指offer的时候用的 二审此题 的方法, 如果遇到单调的话, 就会超时(看一年前别人的提交是通过的, 估计更新了测试用例). 更新后的方法: 维护一个单调队列, 队尾的值小于要进来的值则出队.
+[xu-lie-hua-er-cha-shu-lcof.cpp](xu-lie-hua-er-cha-shu-lcof.cpp) <br/> [aserialize-and-deserialize-binary-tree.cpp](serialize-and-deserialize-binary-tree.cpp)| [剑指 Offer 37. 序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/) <br/> [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | 正常做就好了, (buffer overflow detected, ans数组开小了).
