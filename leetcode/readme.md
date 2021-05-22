@@ -50,6 +50,7 @@
 [is-unique-lcci.cpp](is-unique-lcci.cpp) | [面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/) | 有个评论写得很好 [https://leetcode-cn.com/problems/is-unique-lcci/comments/562374](https://leetcode-cn.com/problems/is-unique-lcci/comments/562374), 位运算/set/排序. 针对不同情况选择.
 [check-permutation-lcci.cpp](check-permutation-lcci.cpp) | [面试题 01.02. 判定是否互为字符重排](https://leetcode-cn.com/problems/check-permutation-lcci/) | 桶(26)set(假定26个字母), 一个串加一个串减, 最后为0.
 [string-to-url-lcci.cpp](string-to-url-lcci.cpp) | [面试题 01.03. URL化](https://leetcode-cn.com/problems/string-to-url-lcci/) | 常规操作, 使用strcat会超时.
+[palindrome-permutation-lcci.cpp](palindrome-permutation-lcci.cpp) | [面试题 01.04. 回文排列](https://leetcode-cn.com/problems/palindrome-permutation-lcci/) | 统计出现次数, 偶数:出现次数都为偶数, 奇数:仅允许一个字符是奇数, 其他是偶数.
 
 
 ## 中等
