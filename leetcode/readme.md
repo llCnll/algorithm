@@ -85,6 +85,7 @@
 [er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.cpp](er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.cpp) | [剑指 Offer 36. 二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) | 递归, 左子树的最右节点 -- 根 -- 右子树最左节点.
 [ju-zhen-zhong-de-lu-jing-lcof.cpp](ju-zhen-zhong-de-lu-jing-lcof.cpp) <br/> [word-search.cpp](word-search.cpp)| [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) <br/> [79. 单词搜索](https://leetcode-cn.com/problems/word-search/) | 暴力 + dfs.
 [ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp](ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp) | [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | 暴力 + dfs.
+[one-away-lcci.cpp](one-away-lcci.cpp) | [面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/) | 比较长度, 当对位不同的时候, 分别三种操作, 看是否满足(先看长度, 再看对位).
 
 
 ## 困难
