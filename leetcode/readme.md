@@ -49,6 +49,7 @@
 [liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.cpp](liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.cpp) <br/> [intersection-of-two-linked-lists.cpp](intersection-of-two-linked-lists.cpp) | [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) <br/> [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | 有点意思, 之前想的是快慢指针, 没想到还有这么巧的方法. (变成我，走过我走过的路。我变成你，走过你走过的路。然后我们便相遇了.)
 [is-unique-lcci.cpp](is-unique-lcci.cpp) | [面试题 01.01. 判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/) | 有个评论写得很好 [https://leetcode-cn.com/problems/is-unique-lcci/comments/562374](https://leetcode-cn.com/problems/is-unique-lcci/comments/562374), 位运算/set/排序. 针对不同情况选择.
 [check-permutation-lcci.cpp](check-permutation-lcci.cpp) | [面试题 01.02. 判定是否互为字符重排](https://leetcode-cn.com/problems/check-permutation-lcci/) | 桶(26)set(假定26个字母), 一个串加一个串减, 最后为0.
+[string-to-url-lcci.cpp](string-to-url-lcci.cpp) | [面试题 01.03. URL化](https://leetcode-cn.com/problems/string-to-url-lcci/) | 常规操作, 使用strcat会超时.
 
 
 ## 中等
