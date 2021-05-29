@@ -55,6 +55,7 @@
 [string-rotation-lcci.cpp](string-rotation-lcci.cpp) | [面试题 01.09. 字符串轮转](https://leetcode-cn.com/problems/string-rotation-lcci/) | s2+s2 包含s1, 则为旋转.
 [remove-duplicate-node-lcci.cpp](remove-duplicate-node-lcci.cpp) | [面试题 02.01. 移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | set集合判断.
 [kth-node-from-end-of-list-lcci.cpp](kth-node-from-end-of-list-lcci.cpp) | [面试题 02.02. 返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/) | 中规中矩.
+[delete-middle-node-lcci.cpp](delete-middle-node-lcci.cpp) | [面试题 02.03. 删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/) | 审题, 只穿要删除的节点. 所以做替换就好了.
 
 
 ## 中等
