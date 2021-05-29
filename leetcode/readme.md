@@ -53,6 +53,7 @@
 [palindrome-permutation-lcci.cpp](palindrome-permutation-lcci.cpp) | [面试题 01.04. 回文排列](https://leetcode-cn.com/problems/palindrome-permutation-lcci/) | 统计出现次数, 偶数:出现次数都为偶数, 奇数:仅允许一个字符是奇数, 其他是偶数.
 [compress-string-lcci.cpp](compress-string-lcci.cpp) | [面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/) | 常规操作吧.
 [string-rotation-lcci.cpp](string-rotation-lcci.cpp) | [面试题 01.09. 字符串轮转](https://leetcode-cn.com/problems/string-rotation-lcci/) | s2+s2 包含s1, 则为旋转.
+[remove-duplicate-node-lcci.cpp](remove-duplicate-node-lcci.cpp) | [面试题 02.01. 移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | set集合判断.
 
 
 ## 中等
