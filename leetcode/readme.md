@@ -91,6 +91,7 @@
 [ju-zhen-zhong-de-lu-jing-lcof.cpp](ju-zhen-zhong-de-lu-jing-lcof.cpp) <br/> [word-search.cpp](word-search.cpp)| [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) <br/> [79. 单词搜索](https://leetcode-cn.com/problems/word-search/) | 暴力 + dfs.
 [ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp](ji-qi-ren-de-yun-dong-fan-wei-lcof.cpp) | [剑指 Offer 13. 机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | 暴力 + dfs.
 [one-away-lcci.cpp](one-away-lcci.cpp) | [面试题 01.05. 一次编辑](https://leetcode-cn.com/problems/one-away-lcci/) | 比较长度, 当对位不同的时候, 分别三种操作, 看是否满足(先看长度, 再看对位).
+[fu-za-lian-biao-de-fu-zhi-lcof.cpp](fu-za-lian-biao-de-fu-zhi-lcof.cpp) <br/> [copy-list-with-random-pointer.cpp](copy-list-with-random-pointer.cpp)| [剑指 Offer 35. 复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) <br/> [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | 要保留原链表的格式. 遍历三次. 1.复制节点 2.更新random 3.复原.
 
 
 ## 困难
