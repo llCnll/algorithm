@@ -56,6 +56,7 @@
 [remove-duplicate-node-lcci.cpp](remove-duplicate-node-lcci.cpp) | [面试题 02.01. 移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | set集合判断.
 [kth-node-from-end-of-list-lcci.cpp](kth-node-from-end-of-list-lcci.cpp) | [面试题 02.02. 返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/) | 中规中矩.
 [delete-middle-node-lcci.cpp](delete-middle-node-lcci.cpp) | [面试题 02.03. 删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/) | 审题, 只穿要删除的节点. 所以做替换就好了.
+[running-sum-of-1d-array.cpp](running-sum-of-1d-array.cpp) | [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) | https://github.com/azl397985856/leetcode/blob/master/thinkings/prefix.md 母题0 前缀和 试试手
 
 
 ## 中等
