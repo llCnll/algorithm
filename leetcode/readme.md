@@ -97,6 +97,7 @@
 [fu-za-lian-biao-de-fu-zhi-lcof.cpp](fu-za-lian-biao-de-fu-zhi-lcof.cpp) <br/> [copy-list-with-random-pointer.cpp](copy-list-with-random-pointer.cpp)| [剑指 Offer 35. 复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) <br/> [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | 要保留原链表的格式. 遍历三次. 1.复制节点 2.更新random 3.复原.
 [ZVAVXX.cpp](ZVAVXX.cpp) <br/> [subarray-product-less-than-k.cpp](subarray-product-less-than-k.cpp)| [剑指 Offer II 009. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/ZVAVXX/) <br/> [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | 滑动窗口+找规律(每次窗口长度加一, count就加上窗口大小 比如窗口是 (10, 5) 下一窗口是 (10, 5, 1), 新增[(10, 5, 1), (5, 1), (1)] 一共3个, 即滑动窗口大小)
 [add-two-numbers.cpp](add-two-numbers.cpp) | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | 注意进位就好了.
+[longest-palindromic-substring.cpp](longest-palindromic-substring.cpp) | [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | 反转 + 公共字串(最后一项那啥可能需要注意下, 公共字串不一定是回文序列, 要额外判断), 参考: https://leetcode-cn.com/problems/longest-palindromic-substring/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-bao-gu/
 
 
 ## 困难
