@@ -62,6 +62,7 @@
 [valid-parentheses.cpp](valid-parentheses.cpp) | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 栈, 可能写的不够优雅...
 [swap-nodes-in-pairs.cpp](swap-nodes-in-pairs.cpp) | [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | 借助头节点, 进行交换.
 [remove-element.cpp](remove-element.cpp) | [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | 前后遍历, 当前值为val, 从后面扔一个值过来.
+[search-insert-position.cpp](search-insert-position.cpp) | [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | 二分查找.
 
 
 ## 中等
