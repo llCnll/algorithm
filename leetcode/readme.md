@@ -60,6 +60,7 @@
 [linked-list-cycle.cpp](linked-list-cycle.cpp) | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | 快慢指针
 [palindrome-number.cpp](palindrome-number.cpp) | [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) | 用空间换时间.
 [valid-parentheses.cpp](valid-parentheses.cpp) | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 栈, 可能写的不够优雅...
+[swap-nodes-in-pairs.cpp](swap-nodes-in-pairs.cpp) | [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | 借助头节点, 进行交换.
 
 
 ## 中等
