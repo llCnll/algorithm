@@ -59,6 +59,7 @@
 [running-sum-of-1d-array.cpp](running-sum-of-1d-array.cpp) | [1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) | https://github.com/azl397985856/leetcode/blob/master/thinkings/prefix.md 母题0 前缀和 试试手
 [linked-list-cycle.cpp](linked-list-cycle.cpp) | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | 快慢指针
 [palindrome-number.cpp](palindrome-number.cpp) | [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/) | 用空间换时间.
+[valid-parentheses.cpp](valid-parentheses.cpp) | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 栈, 可能写的不够优雅...
 
 
 ## 中等
