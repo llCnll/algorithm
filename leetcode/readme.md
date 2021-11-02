@@ -103,6 +103,7 @@
 [ZVAVXX.cpp](ZVAVXX.cpp) <br/> [subarray-product-less-than-k.cpp](subarray-product-less-than-k.cpp)| [剑指 Offer II 009. 乘积小于 K 的子数组](https://leetcode-cn.com/problems/ZVAVXX/) <br/> [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | 滑动窗口+找规律(每次窗口长度加一, count就加上窗口大小 比如窗口是 (10, 5) 下一窗口是 (10, 5, 1), 新增[(10, 5, 1), (5, 1), (1)] 一共3个, 即滑动窗口大小)
 [add-two-numbers.cpp](add-two-numbers.cpp) | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | 注意进位就好了.
 [longest-palindromic-substring.cpp](longest-palindromic-substring.cpp) | [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | 反转 + 公共字串(最后一项那啥可能需要注意下, 公共字串不一定是回文序列, 要额外判断), 参考: https://leetcode-cn.com/problems/longest-palindromic-substring/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-bao-gu/
+[longest-increasing-subsequence.cpp](longest-increasing-subsequence.cpp) | [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | 动态规划, n^2复杂度, 可以优化为nlogn...
 
 
 ## 困难
