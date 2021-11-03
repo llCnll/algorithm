@@ -64,6 +64,7 @@
 [remove-element.cpp](remove-element.cpp) | [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | 前后遍历, 当前值为val, 从后面扔一个值过来.
 [search-insert-position.cpp](search-insert-position.cpp) | [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | 二分查找.
 [longest-common-prefix.cpp](longest-common-prefix.cpp) | [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | 暴力... 可优化
+[remove-duplicates-from-sorted-list.cpp](remove-duplicates-from-sorted-list.cpp) | [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | 先做的82.. 把82题跳过的相关代码删掉就好了, 在额外判断下最后一个节点是否是我们想要的.
 
 
 ## 中等
