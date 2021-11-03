@@ -104,6 +104,7 @@
 [add-two-numbers.cpp](add-two-numbers.cpp) | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | 注意进位就好了.
 [longest-palindromic-substring.cpp](longest-palindromic-substring.cpp) | [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | 反转 + 公共字串(最后一项那啥可能需要注意下, 公共字串不一定是回文序列, 要额外判断), 参考: https://leetcode-cn.com/problems/longest-palindromic-substring/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-bao-gu/
 [longest-increasing-subsequence.cpp](longest-increasing-subsequence.cpp) | [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | 动态规划, n^2复杂度, 可以优化为nlogn...
+[remove-duplicates-from-sorted-array-ii.cpp](remove-duplicates-from-sorted-array-ii.cpp) | [80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | 遍历一遍出结果.
 
 
 ## 困难
