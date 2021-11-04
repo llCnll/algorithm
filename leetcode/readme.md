@@ -108,6 +108,7 @@
 [remove-duplicates-from-sorted-array-ii.cpp](remove-duplicates-from-sorted-array-ii.cpp) | [80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | 遍历一遍出结果.
 [remove-duplicates-from-sorted-list-ii.cpp](remove-duplicates-from-sorted-list-ii.cpp) | [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | 快慢指针, 当有重复的时候慢指针不着急移动, 可能下一组还是重复的.
 [permutations.cpp](permutations.cpp) | [46. 全排列](https://leetcode-cn.com/problems/permutations/) | 递归+回溯
+[permutations-ii.cpp](permutations-ii.cpp) | [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | 递归+回溯+剪枝, 剪枝使用的是set判断该轮是否使用过. 应该还可以优化, 才超过10%...
 
 
 ## 困难
