@@ -65,6 +65,7 @@
 [search-insert-position.cpp](search-insert-position.cpp) | [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | 二分查找.
 [longest-common-prefix.cpp](longest-common-prefix.cpp) | [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | 暴力... 可优化
 [remove-duplicates-from-sorted-list.cpp](remove-duplicates-from-sorted-list.cpp) | [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | 先做的82.. 把82题跳过的相关代码删掉就好了, 在额外判断下最后一个节点是否是我们想要的.
+[length-of-last-word.cpp](length-of-last-word.cpp) | [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | 倒序, 注意结尾的空格.
 
 
 ## 中等
