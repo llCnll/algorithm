@@ -67,6 +67,7 @@
 [remove-duplicates-from-sorted-list.cpp](remove-duplicates-from-sorted-list.cpp) | [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | 先做的82.. 把82题跳过的相关代码删掉就好了, 在额外判断下最后一个节点是否是我们想要的.
 [length-of-last-word.cpp](length-of-last-word.cpp) | [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | 倒序, 注意结尾的空格.
 [remove-nth-node-from-end-of-list.cpp](remove-nth-node-from-end-of-list.cpp) | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | 快慢指针, 注意什么时候跳过元素就可以了.
+[sorted-merge-lcci.cpp](sorted-merge-lcci.cpp) | [面试题 10.01. 合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | 从队尾倒序遍历, 省很多事情.
 
 
 ## 中等
