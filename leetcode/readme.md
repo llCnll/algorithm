@@ -68,6 +68,7 @@
 [length-of-last-word.cpp](length-of-last-word.cpp) | [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | 倒序, 注意结尾的空格.
 [remove-nth-node-from-end-of-list.cpp](remove-nth-node-from-end-of-list.cpp) | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | 快慢指针, 注意什么时候跳过元素就可以了.
 [sorted-merge-lcci.cpp](sorted-merge-lcci.cpp) | [面试题 10.01. 合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | 从队尾倒序遍历, 省很多事情.
+[is-subsequence.cpp](is-subsequence.cpp) | [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | 双指针, 但是进阶的没想好怎么弄(待优化)
 
 
 ## 中等
