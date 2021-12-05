@@ -69,6 +69,7 @@
 [remove-nth-node-from-end-of-list.cpp](remove-nth-node-from-end-of-list.cpp) | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | 快慢指针, 注意什么时候跳过元素就可以了.
 [sorted-merge-lcci.cpp](sorted-merge-lcci.cpp) | [面试题 10.01. 合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | 从队尾倒序遍历, 省很多事情.
 [is-subsequence.cpp](is-subsequence.cpp) | [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | 双指针, 但是进阶的没想好怎么弄(待优化)
+[minimum-depth-of-binary-tree.cpp](minimum-depth-of-binary-tree.cpp) | [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | 递归遍历. 当前深度 与 记录的深度 进行比较, 可提前返回(剪枝)
 
 
 ## 中等
