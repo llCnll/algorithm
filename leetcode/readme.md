@@ -70,7 +70,8 @@
 [sorted-merge-lcci.cpp](sorted-merge-lcci.cpp) | [面试题 10.01. 合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/) | 从队尾倒序遍历, 省很多事情.
 [is-subsequence.cpp](is-subsequence.cpp) | [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) | 双指针, 但是进阶的没想好怎么弄(待优化)
 [minimum-depth-of-binary-tree.cpp](minimum-depth-of-binary-tree.cpp) | [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | 递归遍历. 当前深度 与 记录的深度 进行比较, 可提前返回(剪枝)
-[/excel-sheet-column-title.cpp](/excel-sheet-column-title.cpp) | [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 简单的模25,除26.
+[excel-sheet-column-title.cpp](excel-sheet-column-title.cpp) | [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 简单的模25,除26.
+[excel-sheet-column-number.cpp](excel-sheet-column-number.cpp) | [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 26进制, 注意结果用 uint.
 
 
 ## 中等
