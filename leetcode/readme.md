@@ -117,6 +117,7 @@
 [permutations.cpp](permutations.cpp) | [46. 全排列](https://leetcode-cn.com/problems/permutations/) | 递归+回溯
 [permutations-ii.cpp](permutations-ii.cpp) | [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | 递归+回溯+剪枝, 剪枝使用的是set判断该轮是否使用过. 应该还可以优化, 才超过10%...
 [flatten-binary-tree-to-linked-list.cpp](flatten-binary-tree-to-linked-list.cpp) | [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | 判断是否有左子树, 有的话插入到当前节点与右节点中间. 递归.
+[find-peak-element.cpp](find-peak-element.cpp) | [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | 二分查找. 处理好边界值.
 
 
 ## 困难
