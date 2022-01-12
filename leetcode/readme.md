@@ -119,6 +119,7 @@
 [flatten-binary-tree-to-linked-list.cpp](flatten-binary-tree-to-linked-list.cpp) | [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | 判断是否有左子树, 有的话插入到当前节点与右节点中间. 递归.
 [find-peak-element.cpp](find-peak-element.cpp) | [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | 二分查找. 处理好边界值.
 [linked-list-cycle-ii.cpp](linked-list-cycle-ii.cpp) | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [参考评论](https://leetcode-cn.com/problems/linked-list-cycle-ii/comments/52525) 快慢指针相遇后, 相遇点与起点在一起走, 相遇即为入口点.
+[house-robber.cpp](house-robber.cpp) | [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | 动态规划, (i)+(i-2)的值 与 (i-1)比较大小.
 
 
 ## 困难
