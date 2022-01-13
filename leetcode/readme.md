@@ -121,6 +121,7 @@
 [linked-list-cycle-ii.cpp](linked-list-cycle-ii.cpp) | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [参考评论](https://leetcode-cn.com/problems/linked-list-cycle-ii/comments/52525) 快慢指针相遇后, 相遇点与起点在一起走, 相遇即为入口点.
 [house-robber.cpp](house-robber.cpp) | [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | 动态规划, (i)+(i-2)的值 与 (i-1)比较大小.
 [generate-parentheses.cpp](generate-parentheses.cpp) | [generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | 递归, 由于用的全局变量, 每次估计没初始化, 导致还保留上次的值, 坑死我了.
+[kth-largest-element-in-an-array.cpp](kth-largest-element-in-an-array.cpp) | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | 快排.
 
 
 ## 困难
