@@ -122,6 +122,7 @@
 [house-robber.cpp](house-robber.cpp) | [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | 动态规划, (i)+(i-2)的值 与 (i-1)比较大小.
 [generate-parentheses.cpp](generate-parentheses.cpp) | [generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | 递归, 由于用的全局变量, 每次估计没初始化, 导致还保留上次的值, 坑死我了.
 [kth-largest-element-in-an-array.cpp](kth-largest-element-in-an-array.cpp) | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | 快排.
+[jump-game.cpp](jump-game.cpp) | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | 遍历当前节点+跳跃值 >= 数组长度.
 
 
 ## 困难
