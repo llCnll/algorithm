@@ -123,6 +123,7 @@
 [generate-parentheses.cpp](generate-parentheses.cpp) | [generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | 递归, 由于用的全局变量, 每次估计没初始化, 导致还保留上次的值, 坑死我了.
 [kth-largest-element-in-an-array.cpp](kth-largest-element-in-an-array.cpp) | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | 快排.
 [jump-game.cpp](jump-game.cpp) | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | 遍历当前节点+跳跃值 >= 数组长度.
+[coin-change.cpp](coin-change.cpp) | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | 动态规划, 去当前值-当前硬币的值 + 1, 即为当前最合适的值. 遍历取最小的值.
 
 
 ## 困难
