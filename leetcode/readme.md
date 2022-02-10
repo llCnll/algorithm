@@ -72,6 +72,7 @@
 [minimum-depth-of-binary-tree.cpp](minimum-depth-of-binary-tree.cpp) | [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | 递归遍历. 当前深度 与 记录的深度 进行比较, 可提前返回(剪枝)
 [excel-sheet-column-title.cpp](excel-sheet-column-title.cpp) | [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 简单的模25,除26.
 [excel-sheet-column-number.cpp](excel-sheet-column-number.cpp) | [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 26进制, 注意结果用 uint.
+[valid-anagram.cpp](valid-anagram.cpp) | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | 桶计数.
 
 
 ## 中等
