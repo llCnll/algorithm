@@ -2,40 +2,36 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define max(a, b) (a) > (b) ? (a) : (b)
+
 struct TreeNode {
     int val;
     struct TreeNode *left;
     struct TreeNode *right;
 };
 
-int deep = 0;
+int maxAns = 0;
 
-void dfs(struct TreeNode* root, int current_deep) {
-    if(root == NULL) {
-        return ;
-    }
 
-    if (current_deep + 1 > deep) {
-        deep = current_deep+1;
-    }
-
-    dfs(root->left, current_deep+1);
-    dfs(root->right, current_deep+1);
-}
-
-int maxDepth(struct TreeNode* root){
-    deep = 0;
-    dfs(root, 0);
-    return deep;
-}
-
-void DLR(TreeNode *root) {
+void DLR(TreeNode *root, int deep) {
     if (root == NULL) {
         return;
     }
     printf("%d", root->val);
-    DLR(root->left);
-    DLR(root->right);
+    deep++;
+    maxAns = max(deep, maxAns);
+
+    DLR(root->left, deep);
+    DLR(root->right, deep);
+}
+
+int maxDepth(struct TreeNode* root){
+    if (NULL == root) return 0;
+
+    maxAns = 0;
+    DLR(root, 0);
+
+    return maxAns;
 }
 
 int main() {
@@ -67,11 +63,11 @@ int main() {
 
     p3.left = p3.right = p4.left = p4.right = p5.right = p5.left = p6.left = p6.right = NULL;
 
-    DLR(&p0);
+    DLR(&p0,0);
 
     printf("\nafter\n");
 
-    printf("%d\n", maxDepth(&p0));
+    printf("\n\n%d\n", maxDepth(&p0));
 
     return 0;
 }
