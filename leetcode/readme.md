@@ -74,6 +74,7 @@
 [excel-sheet-column-number.cpp](excel-sheet-column-number.cpp) | [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title/) | 26进制, 注意结果用 uint.
 [valid-anagram.cpp](valid-anagram.cpp) | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | 桶计数.
 [maximum-depth-of-binary-tree.cpp](maximum-depth-of-binary-tree.cpp) | [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 递归遍历.
+[binary-tree-paths.cpp](binary-tree-paths.cpp) | [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) | 深度优先遍历.
 
 
 ## 中等
