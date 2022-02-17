@@ -75,6 +75,7 @@
 [valid-anagram.cpp](valid-anagram.cpp) | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | 桶计数.
 [maximum-depth-of-binary-tree.cpp](maximum-depth-of-binary-tree.cpp) | [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 递归遍历.
 [binary-tree-paths.cpp](binary-tree-paths.cpp) | [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) | 深度优先遍历.
+[sum-of-left-leaves.cpp](sum-of-left-leaves.cpp) | [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | 递归遍历, 标记子节点状态.
 
 
 ## 中等
