@@ -76,6 +76,7 @@
 [maximum-depth-of-binary-tree.cpp](maximum-depth-of-binary-tree.cpp) | [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | 递归遍历.
 [binary-tree-paths.cpp](binary-tree-paths.cpp) | [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) | 深度优先遍历.
 [sum-of-left-leaves.cpp](sum-of-left-leaves.cpp) | [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | 递归遍历, 标记子节点状态.
+[happy-number.cpp](happy-number.cpp) | [202. 快乐数](https://leetcode-cn.com/problems/happy-number/) | 当小于10, 并且不等于7的时候, 返回false.
 
 
 ## 中等
