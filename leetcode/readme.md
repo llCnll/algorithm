@@ -77,6 +77,7 @@
 [binary-tree-paths.cpp](binary-tree-paths.cpp) | [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/) | 深度优先遍历.
 [sum-of-left-leaves.cpp](sum-of-left-leaves.cpp) | [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | 递归遍历, 标记子节点状态.
 [happy-number.cpp](happy-number.cpp) | [202. 快乐数](https://leetcode-cn.com/problems/happy-number/) | 当小于10, 并且不等于7的时候, 返回false.
+[squares-of-a-sorted-array.cpp](squares-of-a-sorted-array.cpp) | [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | 双指针, 通过绝对值进行比较.
 
 
 ## 中等
