@@ -130,6 +130,7 @@
 [jump-game.cpp](jump-game.cpp) | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | 遍历当前节点+跳跃值 >= 数组长度.
 [coin-change.cpp](coin-change.cpp) | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | 动态规划, 去当前值-当前硬币的值 + 1, 即为当前最合适的值. 遍历取最小的值.
 [minimum-size-subarray-sum.cpp](minimum-size-subarray-sum.cpp) | [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | 滑动窗口, 注意边界值... 待优化: nlogn
+[fruit-into-baskets.cpp](fruit-into-baskets.cpp) | [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口, 使用变量记录当前种类, 使用桶记录数量.
 
 
 ## 困难
