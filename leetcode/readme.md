@@ -133,6 +133,7 @@
 [coin-change.cpp](coin-change.cpp) | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | 动态规划, 去当前值-当前硬币的值 + 1, 即为当前最合适的值. 遍历取最小的值.
 [minimum-size-subarray-sum.cpp](minimum-size-subarray-sum.cpp) | [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | 滑动窗口, 注意边界值... 待优化: nlogn
 [fruit-into-baskets.cpp](fruit-into-baskets.cpp) | [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口, 使用变量记录当前种类, 使用桶记录数量.
+[merge-intervals.cpp](merge-intervals.cpp) | [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | 先排序, 在进行合并, 之前使用描点的方式,有问题, 比如 (1,4) (5,6) 会被合并成(1,6)
 
 
 ## 困难
