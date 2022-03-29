@@ -80,6 +80,7 @@
 [squares-of-a-sorted-array.cpp](squares-of-a-sorted-array.cpp) | [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | 双指针, 通过绝对值进行比较.
 [middle-of-the-linked-list.cpp](middle-of-the-linked-list.cpp) | [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | 快慢指针,快指针指向NULL, 慢指针的位置即所得.
 [find-all-numbers-disappeared-in-an-array.cpp](find-all-numbers-disappeared-in-an-array.cpp) | [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | 当前值移动到对应索引位置.
+[find-the-duplicate-numb.cpp](find-the-duplicate-nu.cpp) | [287. 寻找重复数](https://leetcode-cn.) | 偷个懒, 沿用448的方法, 进阶: 转化成 环链表找入口点问题.
 
 
 ## 中等
