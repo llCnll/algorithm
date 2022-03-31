@@ -138,6 +138,7 @@
 92ms 17.2mb | [find-all-duplicates-in-an-array.cpp](find-all-duplicates-in-an-array.cpp) | [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | 同448, 循环交换, 最后在进行遍历.
 56ms 732.6mb <br/> 8ms 188.7mb| [binary-tree-level-order-traversal-ii.cpp](binary-tree-level-order-traversal-ii.cpp) | [107. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | 包装一层, 记录深度, 层次遍历, 最后翻转. <br/> 使用深度遍历, 取巧的方式, 使用返回列作为当前行的总数.
 20ms 182.7mb | [binary-tree-zigzag-level-order-traversal.cpp](binary-tree-zigzag-level-order-traversal.cpp) | [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 同107第二种方案,使用深度遍历, 取巧的方式, 使用返回列作为当前行的总数. 对奇数行进行反转排序.
+12ms 9.8mb | [average-of-levels-in-binary-tree.cpp](average-of-levels-in-binary-tree.cpp) | [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | 深度遍历, 记录每行数据和数量.
 
 
 ## 困难
