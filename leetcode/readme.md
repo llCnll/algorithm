@@ -136,7 +136,7 @@
 ^ | [fruit-into-baskets.cpp](fruit-into-baskets.cpp) | [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | 滑动窗口, 使用变量记录当前种类, 使用桶记录数量.
 ^ | [merge-intervals.cpp](merge-intervals.cpp) | [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | 先排序, 在进行合并, 之前使用描点的方式,有问题, 比如 (1,4) (5,6) 会被合并成(1,6)
 92ms 17.2mb | [find-all-duplicates-in-an-array.cpp](find-all-duplicates-in-an-array.cpp) | [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | 同448, 循环交换, 最后在进行遍历.
-56ms 732.6mb | [binary-tree-level-order-traversal-ii.cpp](binary-tree-level-order-traversal-ii.cpp) | [107. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | 包装一层, 记录深度, 层次遍历, 最后翻转.
+56ms 732.6mb <br/> 8ms 188.7mb| [binary-tree-level-order-traversal-ii.cpp](binary-tree-level-order-traversal-ii.cpp) | [107. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | 包装一层, 记录深度, 层次遍历, 最后翻转. <br/> 使用深度遍历, 取巧的方式, 返回列作为当前行的总数.
 
 
 ## 困难

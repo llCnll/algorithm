@@ -8,6 +8,59 @@ struct TreeNode {
     struct TreeNode *right;
 };
 
+int deep = 0;
+
+void dfs(struct TreeNode* root, int ** ans, int current_deep, int ** returnColumnSizes) {
+    if(root == NULL) {
+        return ;
+    }
+
+    if (current_deep + 1 > deep) {
+        deep = current_deep+1;
+    }
+
+    ans[current_deep][(*returnColumnSizes)[current_deep] ++] = root->val;
+
+    dfs(root->left, ans, current_deep+1, returnColumnSizes);
+    dfs(root->right, ans, current_deep+1, returnColumnSizes);
+}
+
+// *returnSize 树高, *returnColumnSizes 每层个数
+int** levelOrderBottom(struct TreeNode* root, int* returnSize, int** returnColumnSizes){
+    deep = 0;
+    if (root == NULL) {
+        * returnSize = 0;
+        return NULL;
+    }
+    int** ans = (int**)malloc(sizeof(int*) * 1000);
+    for (int i = 0; i < 1000; ++i) {
+        ans[i] = (int*)calloc(1000, sizeof(int));
+    }
+
+    *returnColumnSizes = (int*)calloc(1000, sizeof(int));
+
+    dfs(root, ans, 0, returnColumnSizes);
+
+    *returnSize = deep;
+
+    // 翻转
+    for (int i = 0; i < (*returnSize) / 2; ++i) {
+        int start = i, end = *returnSize - start -1;
+        // 翻转结果集
+        int * temp = ans[start];
+        ans[start] = ans[end];
+        ans[end] = temp;
+
+        // 翻转列集
+        int t = (*returnColumnSizes)[start];
+        (*returnColumnSizes)[start] = (*returnColumnSizes)[end];
+        (*returnColumnSizes)[end] = t;
+    }
+
+    return ans;
+}
+
+/*
 #define MAX 2000
 #define max(a, b) (a) > (b) ? (a) : (b)
 
@@ -77,7 +130,7 @@ int** levelOrderBottom(struct TreeNode* root, int* returnSize, int** returnColum
 
     return ans;
 }
-
+*/
 
 void DLR(struct TreeNode *root) {
     if (root == NULL) {
