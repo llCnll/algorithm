@@ -1,0 +1,116 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+
+int deep = 0;
+
+void dfs(struct TreeNode* root, int ** ans, int current_deep, int ** returnColumnSizes) {
+    if(root == NULL) {
+        return ;
+    }
+
+    if (current_deep + 1 > deep) {
+        deep = current_deep+1;
+    }
+
+    ans[current_deep][(*returnColumnSizes)[current_deep] ++] = root->val;
+
+    dfs(root->left, ans, current_deep+1, returnColumnSizes);
+    dfs(root->right, ans, current_deep+1, returnColumnSizes);
+}
+
+// *returnSize 树高, *returnColumnSizes 每层个数
+int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes){
+    deep = 0;
+    if (root == NULL) {
+        * returnSize = 0;
+        return NULL;
+    }
+    int** ans = (int**)malloc(sizeof(int*) * 1000);
+    for (int i = 0; i < 1000; ++i) {
+        ans[i] = (int*)calloc(1000, sizeof(int));
+    }
+
+    *returnColumnSizes = (int*)calloc(1000, sizeof(int));
+
+    dfs(root, ans, 0, returnColumnSizes);
+
+    *returnSize = deep;
+
+    // 奇数行反转
+    for (int i = 1; i < *returnSize; i+=2) {
+        int j = 0;
+        while (j < (*returnColumnSizes)[i] / 2) {
+            int start = j, end =  (*returnColumnSizes)[i] - start -1;
+            // 翻转结果集
+            int temp = ans[i][start];
+            ans[i][start] = ans[i][end];
+            ans[i][end] = temp;
+            j++;
+        }
+    }
+    return ans;
+}
+
+void DLR(struct TreeNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    printf("%d", root->val);
+    DLR(root->left);
+    DLR(root->right);
+}
+
+int main() {
+
+    struct TreeNode p0;
+    struct TreeNode p1;
+    struct TreeNode p2;
+    struct TreeNode p3;
+    struct TreeNode p4;
+    struct TreeNode p5;
+    struct TreeNode p6;
+
+    p0.val = 4;
+    p1.val = 2;
+    p2.val = 7;
+    p3.val = 1;
+    p4.val = 3;
+    p5.val = 6;
+    p6.val = 9;
+
+    p0.left = &p1;
+    p0.right = &p2;
+
+    p1.left = &p3;
+    p1.right = &p4;
+
+    p2.left = &p5;
+    p2.right = &p6;
+
+    p3.left = p3.right = p4.left = p4.right = p5.right = p5.left = p6.left = p6.right = NULL;
+
+    DLR(&p0);
+
+    printf("\nafter\n");
+
+    int returnSize = 0;
+    int * returnColumn;
+    int ** ans = zigzagLevelOrder(&p0, &returnSize, &returnColumn);
+
+    for (int i = 0; i < returnSize; ++i) {
+        for (int j = 0; j < returnColumn[i]; ++j) {
+            printf("%d ", ans[i][j]);
+        }
+        putchar('\n');
+    }
+
+    return 0;
+}
+
