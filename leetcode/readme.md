@@ -81,6 +81,7 @@
 ^ | [middle-of-the-linked-list.cpp](middle-of-the-linked-list.cpp) | [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | 快慢指针,快指针指向NULL, 慢指针的位置即所得.
 ^ | [find-all-numbers-disappeared-in-an-array.cpp](find-all-numbers-disappeared-in-an-array.cpp) | [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | 当前值移动到对应索引位置.
 ^ | [find-the-duplicate-number.cpp](find-the-duplicate-number.cpp) | [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | 偷个懒, 沿用448的方法, 进阶: 转化成 环链表找入口点问题.
+8ms 8mb | [path-sum.cpp](path-sum.cpp) | [112. 路径总和](https://leetcode-cn.com/problems/path-sum/) | 深度递归遍历.
 
 ## 中等
 
