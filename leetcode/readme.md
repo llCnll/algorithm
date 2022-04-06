@@ -142,6 +142,7 @@
 12ms 9.8mb | [average-of-levels-in-binary-tree.cpp](average-of-levels-in-binary-tree.cpp) | [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | 深度遍历, 记录每行数据和数量.
 12ms 8.8mb | [populating-next-right-pointers-in-each-node.cpp](populating-next-right-point.cpp) | [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | 包装一层, 记录深度, 层次遍历, 如果当前深度与队列一个的深度一样则拼接, 否则为NULL. 可能会有优化方案吧, 毕竟时间复杂度不是 常量级别.
 0ms 6mb | [sum-root-to-leaf-numbers.cpp](sum-root-to-leaf-numbers.cpp) | [129. 求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | 深度递归遍历.
+4ms 6.6mb | [subsets.cpp](subsets.cpp) | [78. 子集](https://leetcode-cn.com/problems/subsets/) | 在原结果的基础上, 复制一份添加当前值.
 
 
 ## 困难
