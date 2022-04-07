@@ -143,6 +143,7 @@
 12ms 8.8mb | [populating-next-right-pointers-in-each-node.cpp](populating-next-right-point.cpp) | [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | 包装一层, 记录深度, 层次遍历, 如果当前深度与队列一个的深度一样则拼接, 否则为NULL. 可能会有优化方案吧, 毕竟时间复杂度不是 常量级别.
 0ms 6mb | [sum-root-to-leaf-numbers.cpp](sum-root-to-leaf-numbers.cpp) | [129. 求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | 深度递归遍历.
 4ms 6.6mb | [subsets.cpp](subsets.cpp) | [78. 子集](https://leetcode-cn.com/problems/subsets/) | 在原结果的基础上, 复制一份添加当前值.
+8ms 6.9mb | [subsets-ii.cpp](subsets-ii.cpp) | [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/) | 在78的基础上(在原结果的基础上, 复制一份添加当前值.), 增一些操作. 1) 现将原数组排序, 2) 如果当前值与前一个值相同, 则只追加上次那个数添加的部分, 不相同则将结果全部遍历添加一份出来.
 
 
 ## 困难
