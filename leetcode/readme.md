@@ -83,6 +83,7 @@
 ^ | [find-the-duplicate-number.cpp](find-the-duplicate-number.cpp) | [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | 偷个懒, 沿用448的方法, 进阶: 转化成 环链表找入口点问题.
 8ms 8mb | [path-sum.cpp](path-sum.cpp) | [112. 路径总和](https://leetcode-cn.com/problems/path-sum/) | 深度递归遍历.
 32ms 7mb | [binary-search.cpp](binary-search.cpp) | [704. 二分查找](https://leetcode-cn.com/problems/binary-search/) | 二分查找.
+8ms 6.2mb | [find-smallest-letter-greater-than-target.cpp](find-smallest-letter-greater-than-target.cpp) | [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | 二分查找.
 
 ## 中等
 
