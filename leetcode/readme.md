@@ -149,6 +149,7 @@
 8ms 6.9mb | [subsets-ii.cpp](subsets-ii.cpp) | [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/) | 在78的基础上(在原结果的基础上, 复制一份添加当前值.), 增一些操作. 1) 现将原数组排序, 2) 如果当前值与前一个值相同, 则只追加上次那个数添加的部分, 不相同则将结果全部遍历添加一份出来.
 4ms 17.6mb | [letter-case-permutation/submissions.cpp](letter-case-permutation/submissions.cpp) | [784. 字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation/) | 递归回溯,先全部转成小写,判断的时候就容易多了, 是字母, 就把大小写两个分支加上, 数字就不动.
 20ms 10.2mb | [single-element-in-a-sorted-array.cpp](single-element-in-a-sorted-array.cpp) | [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | 二分查找,n为偶数且n+1 相等, 则找右区间. 反之左区间.相邻元素不相等, 则返回当前下标.
+8ms 11.9mb | [longest-common-subsequence.cpp](longest-common-subsequence.cpp) | [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | 动态转移方程, 相等:dp[i-1][j-1]+1, 不相等max(dp[i-1][j],dp[i][j-1]).
 
 
 ## 困难
