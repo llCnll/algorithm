@@ -85,6 +85,7 @@
 32ms 7mb | [binary-search.cpp](binary-search.cpp) | [704. 二分查找](https://leetcode-cn.com/problems/binary-search/) | 二分查找.
 8ms 6.2mb | [find-smallest-letter-greater-than-target.cpp](find-smallest-letter-greater-than-target.cpp) | [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | 二分查找.
 96ms 16.1mb | [minimum-absolute-difference.cpp](minimum-absolute-difference.cpp) | [1200. 最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference/) | 先排序, 在记录最小差值.
+28ms 7.2mb | [assign-cookies.cpp](assign-cookies.cpp) | [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/) | 先排序, 在一次比较即可.
 
 ## 中等
 
