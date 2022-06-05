@@ -88,6 +88,7 @@
 28ms 7.2mb | [assign-cookies.cpp](assign-cookies.cpp) | [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/) | 先排序, 在一次比较即可.
 4ms 6.1mb | [merge-sorted-array.cpp](merge-sorted-array.cpp) | [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | 从后遍历即可.
 4ms 5.6mb | [longest-palind.cpp](longest-palindrome.cpp) | [409. 最长回文串](https://leetcode.) | 记录每个字母出现的个数,如果是偶数直接加,如果是奇数看情况加,大于1的奇数加-1的值.
+56ms 8.4mb | [array-partition-i.cpp](array-partition-i.cpp) | [561. 数组拆分 I](https://leetc) | 排序,然后选偶数位置.
 
 ## 中等
 
