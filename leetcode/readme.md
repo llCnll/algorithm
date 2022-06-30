@@ -155,6 +155,7 @@
 20ms 10.2mb | [single-element-in-a-sorted-array.cpp](single-element-in-a-sorted-array.cpp) | [540. 有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | 二分查找,n为偶数且n+1 相等, 则找右区间. 反之左区间.相邻元素不相等, 则返回当前下标.
 8ms 11.9mb | [longest-common-subsequence.cpp](longest-common-subsequence.cpp) | [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | 动态转移方程, 相等:dp[i-1][j-1]+1, 不相等max(dp[i-1][j],dp[i][j-1]).
 40ms 13.5mb | [smallest-k-lcc.cpp](smallest-k-lcc.cpp) | [面试题 17.14. 最小K个数](https://leetcode) | 快速排序.
+8ms 10.1mb | [kth-smallest-element-in-a-bst.cpp](kth-smallest-element-in-a-bst.cpp) | [230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/) | 二叉搜索树左小右大, 左根右遍历.
 
 
 ## 困难
