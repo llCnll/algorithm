@@ -160,6 +160,7 @@
 92ms 19.3mb | [product-of-array-except-self.cpp](product-of-array-except-self.cpp) | [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/) | 左乘积 * 右乘积, 边界用1表示.
 76ms 11.3mb | [container-with-most-water.cpp](container-with-most-water.cpp) | [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | 1.暴力超时, 2.双指针,每次只移动短指针.
 1300ms 7.7mb | [partitioning-into-minimum-number-of-deci-binary-numbers.cpp](partitioning-into-minimum-number-of-deci-binary-numbers.cpp) | [1689. 十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | 实际上就是看字符串的最大值是多少.
+0ms 9.3mb | [get-kth-magic-n.cpp](get-kth-magic-number-lcci.cpp) | [面试题 17.09. 第](面试题 17.09. 第 k 个数) | 三指针.
 
 
 ## 困难
