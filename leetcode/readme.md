@@ -90,6 +90,7 @@
 4ms 5.6mb | [longest-palind.cpp](longest-palindrome.cpp) | [409. 最长回文串](https://leetcode.cn/problems/longest-palindrome/) | 记录每个字母出现的个数,如果是偶数直接加,如果是奇数看情况加,大于1的奇数加-1的值.
 56ms 8.4mb | [array-partition-i.cpp](array-partition-i.cpp) | [561. 数组拆分 I](https://leetcode.cn/problems/array-partition/) | 排序,然后选偶数位置.
 8ms 6mb | [richest-customer-wealth.cpp](richest-customer-wealth.cpp) | [1672. 最富有客户的资产总量](https://leetcode.cn/problems/richest-customer-wealth/) | 遍历.
+0ms 5.8mb | [binary-tree-.cpp](binary-tre.cpp) | [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorde) | 先序遍历.
 
 ## 中等
 
