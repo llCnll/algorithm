@@ -98,6 +98,7 @@
 0ms 5.8mb | [pascals-triangle-ii.cpp](pascals-triangle-ii.cpp) | [119. 杨辉三角 II](https://leetcode.cn/problems/pascals-triangle-ii/) | 常规做法.
 204ms 78.5mb | [contains-duplicate-ii.cpp](contains-duplicate-ii.cpp) | [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/) | 滑动窗口.
 20ms 8mb | [remove-linked-list-elements.cpp](remove-linked-list-elements.cpp) | [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/) | 增加头节点.
+32ms 5.8mb | [isomorphic-strings.cpp](isomorphic-strings.cpp) | [205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/) | 两个map分别存储, s-t 与 t-s 的值, 并进行比较.
 
 ## 中等
 
