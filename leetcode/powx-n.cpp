@@ -2,18 +2,27 @@
 #include <stdlib.h>
 #include <string.h>
 
-double myPow(double x, int n){
+
+double myPow(double x, long n){
+    if (n == 0) return 1;
+    if (n == 1) return x;
+    if (n < 0) {
+        n = -n;
+        x = 1/x;
+    }
+    return n%2 == 1 ? x*myPow(x*x, n/2) : myPow(x*x, n/2);
+}
+
+double myPow_2(double x, int n){
     if (0 == n) {
         return 1;
     }
     long b = (long)n;
     double res = 1.0;
-
     if (b < 0) {
         x = 1/x;
         b = -b;
     }
-
     while (b > 0) {
         if ((b&1) == 1) {
             res *= x;
