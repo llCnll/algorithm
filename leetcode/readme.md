@@ -97,6 +97,7 @@
 4ms 6.1mb | [pascals-triangle.cpp](pascals-triangle.cpp) | [118. 杨辉三角](https://leetcode.cn/problems/pascals-triangle/) | 常规做法.
 0ms 5.8mb | [pascals-triangle-ii.cpp](pascals-triangle-ii.cpp) | [119. 杨辉三角 II](https://leetcode.cn/problems/pascals-triangle-ii/) | 常规做法.
 204ms 78.5mb | [contains-duplicate-ii.cpp](contains-duplicate-ii.cpp) | [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/) | 滑动窗口.
+4ms 5.1mb | [power-of-two.cpp](power-of-two.cpp) | [231. 2 的幂](https://leetcode.cn/problems/power-of-two/) | 位运算, 按位与.
 
 ## 中等
 
