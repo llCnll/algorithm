@@ -99,6 +99,9 @@
 204ms 78.5mb | [contains-duplicate-ii.cpp](contains-duplicate-ii.cpp) | [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/) | 滑动窗口.
 20ms 8mb | [remove-linked-list-elements.cpp](remove-linked-list-elements.cpp) | [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/) | 增加头节点.
 32ms 5.8mb | [isomorphic-strings.cpp](isomorphic-strings.cpp) | [205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings/) | 两个map分别存储, s-t 与 t-s 的值, 并进行比较.
+4ms 5.1mb | [power-of-two.cpp](power-of-two.cpp) | [231. 2 的幂](https://leetcode.cn/problems/power-of-two/) | 位运算, 按位与.
+4ms 5.6mb | [find-the-difference.cpp](find-the-difference.cpp) | [389. 找不同](https://leetcode.cn/problems/find-the-difference/) | 桶运算,全部累加, 第二组全部减.
+4ms 5.2mb | [fibonacci-number.cpp](fibonacci-number.cpp) | [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/) | c=a+b
 
 ## 中等
 
