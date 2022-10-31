@@ -99,6 +99,7 @@
 204ms 78.5mb | [contains-duplicate-ii.cpp](contains-duplicate-ii.cpp) | [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/) | 滑动窗口.
 4ms 5.1mb | [power-of-two.cpp](power-of-two.cpp) | [231. 2 的幂](https://leetcode.cn/problems/power-of-two/) | 位运算, 按位与.
 4ms 5.6mb | [find-the-difference.cpp](find-the-difference.cpp) | [389. 找不同](https://leetcode.cn/problems/find-the-difference/) | 桶运算,全部累加, 第二组全部减.
+4ms 5.2mb | [fibonacci-number.cpp](fibonacci-number.cpp) | [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/) | c=a+b
 
 ## 中等
 
