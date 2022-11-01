@@ -175,6 +175,7 @@
 1300ms 7.7mb | [partitioning-into-minimum-number-of-deci-binary-numbers.cpp](partitioning-into-minimum-number-of-deci-binary-numbers.cpp) | [1689. 十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | 实际上就是看字符串的最大值是多少.
 0ms 9.3mb | [get-kth-magic-n.cpp](get-kth-magic-number-lcci.cpp) | [面试题 17.09. 第](面试题 17.09. 第 k 个数) | 三指针.
 120ms 7.5mb | [jump-game-ii.cpp](jump-game-ii.cpp) | [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/) | 动态规划.  dp[i+j] = min(dp[i] + 1, dp[i+j])
+4ms 6mb | [unique-paths-ii.cpp](unique-paths-ii.cpp) | [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/) | 动态规划, 最后一个格子,有且仅有上和右来, 期间过滤掉障碍物的路径即可, 因此动态规划方程为:dp(i,j)=dp(i-1,j)+dp(i,j-1)
 
 
 ## 困难
