@@ -176,6 +176,7 @@
 0ms 9.3mb | [get-kth-magic-n.cpp](get-kth-magic-number-lcci.cpp) | [面试题 17.09. 第](面试题 17.09. 第 k 个数) | 三指针.
 120ms 7.5mb | [jump-game-ii.cpp](jump-game-ii.cpp) | [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/) | 动态规划.  dp[i+j] = min(dp[i] + 1, dp[i+j])
 4ms 6mb | [unique-paths-ii.cpp](unique-paths-ii.cpp) | [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii/) | 动态规划, 最后一个格子,有且仅有上和右来, 期间过滤掉障碍物的路径即可, 因此动态规划方程为:dp(i,j)=dp(i-1,j)+dp(i,j-1)
+1480ms 7.5mb | [minimum-insertions-to-balance-a-parentheses-string.cpp](minimum-insertions-to-balance-a-parentheses-string.cpp) | [1541. 平衡括号字符串的最少插入次数](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/description/) | 逻辑题.
 
 
 ## 困难
