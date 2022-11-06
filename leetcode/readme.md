@@ -103,6 +103,7 @@
 4ms 5.6mb | [find-the-difference.cpp](find-the-difference.cpp) | [389. 找不同](https://leetcode.cn/problems/find-the-difference/) | 桶运算,全部累加, 第二组全部减.
 4ms 5.2mb | [fibonacci-number.cpp](fibonacci-number.cpp) | [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/) | c=a+b
 0ms 5.7mb | [unique-paths.cpp](unique-paths.cpp) | [62. 不同路径](https://leetcode.cn/problems/unique-paths/) | 动态规划, 最后一个格子,有且仅有上和右来, 因此动态规划方程为:dp(i,j)=dp(i-1,j)+dp(i,j-1)
+0ms 5.8mb | [min-cost-climbing-stairs.cpp](min-cost-climbing-stairs.cpp) | [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/description/) | 动态规划, dp[i] = min(dp[i-1] + cost[i], dp[i-2] + cost[i]), 比较前两个台阶到当前位置的最小值.
 
 ## 中等
 
